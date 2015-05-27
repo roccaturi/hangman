@@ -1,0 +1,10 @@
+The difficulty is set to level <%= difficulty %>.<br>
+Appeals remaining: <%= 5 - appeals %> <br>
+The word for this game is <%= word %>.<br>
+<%= current_str.split("").each {|x| puts " " + x + " "} %><br>
+Wrong guesses:<br>
+<%= wrong_guesses.each {|x| puts " " + x + " "} %><br>
+<form>
+  <input type="text" name="guess" />
+  <input type="submit" name="Guess Letter" />
+</form>

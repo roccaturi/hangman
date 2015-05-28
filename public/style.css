@@ -321,13 +321,13 @@ body {
 
 #pardoned_main {
   height: 175px;
-  width: 1000px;
+  width: 900px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   text-align: center;
   position: absolute;
   top: 576px;
   left: 50%;
-  margin: 0 0 0 -500px;
+  margin: 0 0 0 -450px;
 }
 
 #pardoned_main form {

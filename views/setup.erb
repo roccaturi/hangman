@@ -1,13 +1,18 @@
-<p>
-  What is your name, prisoner?
-</p>
-<form>
-  <input type="text" name="name" />
-  <p>
-  How many crimes have your been convicted of?<br>
-  Don't attempt to lie: we have the court records on hand.<br>
-  (More crimes increases difficulty.  You've committed 2-20 crimes.)
-  </p>
-  <input type="text" name="difficulty" /><br><br>
-  <input type="submit" value="Answer truthfully" />
-</form>
+<div id="setup_executioner">
+  <img src="<%= url('/executioner.png') %>" title="Ernie the Executioner"/>
+</div>
+<div id="setup_main">
+  <h1>Your hanging will begin shortly.<br>I just have to get this paperwork sorted...</h1>
+  <form method="POST">
+    <p>
+      State your name.
+    </p>
+    <input type="text" name="name" /><br>
+    <p>
+      And how many crimes have you been found guilty of? &nbsp;Don't lie, prisoner.<br>
+      (Difficulty increases with crimes. &nbsp;You've probably committed 3-20 crimes.)
+    </p>
+    <input type="text" name="difficulty" /><br><br>
+    <input type="submit" value="Answer truthfully" />
+  </form>
+</div>

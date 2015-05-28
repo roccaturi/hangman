@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'sinatra-contrib', github: 'sinatra/sinatra-contrib'
+gem 'sinatra'
+gem 'sinatra-reloader'
+gem 'gon-sinatra'

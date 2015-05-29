@@ -41,12 +41,12 @@
           </p>
           <form>
             <input type="text" name="guess" />
-            <input type="submit" value="Guess Letter" />
+            <input type="submit" value="Guess" />
           </form>
           <%= "The word for this game is #{word}." if cheat %>
         </div>
         <div id="game_execution">
-          <p>With great solemnity, I command that you, <%= name %>, also known under the alias "<%= nickname %>", for your crimes of <%= crimes[0...-1].join(", ") + ", and " + crimes[-1] %>, do here on this day be made to hang by the neck until dead.  Have you a final statement?
+          <p>With great solemnity, I order that you, <%= name %>, who are also known as "The <%= nickname %>", in punishment for your crimes of <%= crimes[0...-1].join(", ") + ", and " + crimes[-1] %>, do on this day be made to hang by the neck until dead.  Have you any final statement?
           </p>
           <form>
             <input type="text" name="guess" />
